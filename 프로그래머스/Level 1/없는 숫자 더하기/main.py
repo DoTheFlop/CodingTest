@@ -7,4 +7,8 @@ def solution(numbers):
     print(answer)
     return answer
 
+#풀이
+def solution(numbers):
+    return 45 - sum(numbers)
+
 solution([1,2,3,4,6,7,8,0])
