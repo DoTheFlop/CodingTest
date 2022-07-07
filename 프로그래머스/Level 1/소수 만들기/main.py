@@ -1,4 +1,4 @@
-from itertools import combinations   
+from itertools import combinations
 
 def solution(nums):
     answer = 0
