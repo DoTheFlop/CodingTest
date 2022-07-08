@@ -9,4 +9,11 @@ def solution(d, budget):
             break
     return answer
 
-print(solution([1, 3, 2, 5, 4], 9))
+#더 간단한 풀이
+def solution2(d, budget):
+    d.sort()
+    while budget < sum(d):
+        d.pop()
+    return len(d)
+
+print(solution2([1, 3, 2, 5, 4], 9))
