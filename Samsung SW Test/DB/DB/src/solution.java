@@ -38,15 +38,19 @@ class Solution {
                     score = Integer.parseInt(st.nextToken());
                     ans = Integer.parseInt(st.nextToken());
                     ret = usersolution.add(id, grade, gender, score);
-                    if (ret != ans)
+                    if (ret != ans) {
                         okay = false;
+                        System.out.println("add ret = " + ret + " ans = "+ ans);
+                    }
                     break;
                 case CMD_REMOVE:
                     id = Integer.parseInt(st.nextToken());
                     ans = Integer.parseInt(st.nextToken());
                     ret = usersolution.remove(id);
-                    if (ret != ans)
+                    if (ret != ans) {
                         okay = false;
+                        System.out.println("remove ret = " + ret + " ans = "+ ans);
+                    }
                     break;
                 case CMD_QUERY:
                     int gradeCnt, genderCnt;
@@ -63,8 +67,10 @@ class Solution {
                     score = Integer.parseInt(st.nextToken());
                     ans = Integer.parseInt(st.nextToken());
                     ret = usersolution.query(gradeCnt, gradeArr, genderCnt, genderArr, score);
-                    if (ret != ans)
+                    if (ret != ans) {
                         okay = false;
+                        System.out.println("query ret = " + ret + " ans = "+ ans);
+                    }
                     break;
                 default:
                     okay = false;
