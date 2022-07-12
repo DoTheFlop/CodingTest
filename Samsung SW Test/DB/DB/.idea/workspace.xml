@@ -18,14 +18,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CYC/Documents/GitHub/CodingTest/Samsung SW Test/DB/DB&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/CYC/Documents/Spring-Study/Spring_MVC 1/springmvc"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
@@ -51,6 +51,7 @@
       <workItem from="1657444815087" duration="40000" />
       <workItem from="1657444869621" duration="11000" />
       <workItem from="1657456545502" duration="6104000" />
+      <workItem from="1657511641898" duration="50000" />
     </task>
     <servers />
   </component>
