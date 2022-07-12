@@ -5,13 +5,11 @@ class Solution
 {
     private static int N;
     private static int[][] map;
-    private static boolean[][] visited;
-    private static int answer = 1;
-    private static int count = 1;
-    private static int[] dx = new int[]{-1, 0, 1, 0};
-    private static int[] dy = new int[]{0, -1, 0, 1};
-    private static int maxHeight = 0;
-    private static List<Integer> heightList = new ArrayList<>(); //물 높이 경우의 수 리스트
+
+    private static int count;
+    private static int[] dx = new int[]{1, -1, 0, 0};
+    private static int[] dy = new int[]{0, 0, -1, 1};
+    private static List<Integer> heightList = new ArrayList<>();
     public static void main(String args[]) throws Exception
     {
         System.setIn(new FileInputStream("res/input.txt"));
@@ -25,22 +23,19 @@ class Solution
         for(int test_case = 1; test_case <= T; test_case++)
         {
             N = sc.nextInt();
+            int answer = 1;
+
             map = new int[N][N];
 
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < N; j++) {
                     map[i][j] = sc.nextInt();
                     if (!heightList.contains(map[i][j])) heightList.add(map[i][j]);
-                    if(map[i][j] > maxHeight) {
-                        maxHeight = map[i][j];
-                    }
                 }
             }
-            heightList.add(0);
-            Collections.sort(heightList);
 
             for (int i : heightList){
-                visited = new boolean[N][N];
+                boolean[][] visited = new boolean[N][N];
                 count = 0;
                 for (int y = 0; y < N; y++) {
                     for (int x = 0; x < N; x++) {
@@ -49,26 +44,25 @@ class Solution
                         }
                     }
                 }
-                for (int j = 0; j < N; j++) {
-                    for (int k = 0; k < N; k++) {
-                        if (!visited[j][k]) {
-                            bfs(j, k, i);
+
+                for (int y = 0; y < N; y++) {
+                    for (int x = 0; x < N; x++) {
+                        if (!visited[y][x]) {
+                            bfs(y, x, i, visited);
+                            count++;
                         }
                     }
                 }
-                if (answer < count){
-                    answer = count;
-                }
+                answer = Math.max(answer, count);
             }
 
             System.out.println("#" + test_case + " " + answer);
         }
     }
 
-    static void bfs(int x, int y, int height) {
+    static void bfs(int y, int x, int height, boolean[][] visited) {
         Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{x,y});
-        visited[x][y] = true;
+        q.add(new int[]{y,x});
 
         while(!q.isEmpty()) {
             int[] position = q.poll();
@@ -76,17 +70,16 @@ class Solution
             int py = position[1];
 
             for(int i = 0; i < 4; i++) {
-                int nx = px +dx[i];
-                int ny = py +dy[i];
+                int nx = px + dx[i];
+                int ny = py + dy[i];
 
                 if(nx > -1 && ny > -1 && nx < N && ny < N && visited[nx][ny] == false){
-                    if(map[nx][ny]> height) {
+                    if(map[nx][ny] > height) {
                         visited[nx][ny] = true;
                         q.add(new int[] {nx,ny});
                     }
                 }
             }
         }
-        count++;
     }
 }
