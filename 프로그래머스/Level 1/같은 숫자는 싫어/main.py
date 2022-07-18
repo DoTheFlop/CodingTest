@@ -4,7 +4,7 @@ def solution(arr):
         if i == 0:
             answer.append(arr[i])
         elif  arr[i-1] != arr[i]:
-            answer.pop
+            answer.append(arr[i])
     return answer
 
 solution([1,1,3,3,0,1,1])
