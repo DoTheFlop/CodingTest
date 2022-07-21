@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60c96050-4008-4354-b456-04e8816728f2" name="변경" comment="" />
+    <list default="true" id="0a9adef7-33c2-4b85-8949-6ef2184f76c3" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CCc7GJmUzNVJv3ve5S2xcMbEkT" />
+  <component name="ProjectId" id="2CFNbQL4mdisHbSfKEGXGiWuWCi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -30,12 +30,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/공통조상"
+    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/Directory/CodeBattle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\summer SW class\Directory\CodeBattle\res" />
+      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\summer SW class\기초 DFS 연습\CodeBattle\res" />
     </key>
   </component>
   <component name="RunManager">
@@ -55,14 +55,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="60c96050-4008-4354-b456-04e8816728f2" name="변경" comment="" />
-      <created>1658309839078</created>
+      <changelist id="0a9adef7-33c2-4b85-8949-6ef2184f76c3" name="변경" comment="" />
+      <created>1658394446837</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1658309839078</updated>
-      <workItem from="1658309840292" duration="1353000" />
-      <workItem from="1658311348062" duration="23000" />
-      <workItem from="1658375670477" duration="6785000" />
+      <updated>1658394446837</updated>
+      <workItem from="1658394448207" duration="7219000" />
+      <workItem from="1658405481709" duration="420000" />
+      <workItem from="1658414414376" duration="1037000" />
     </task>
     <servers />
   </component>
@@ -70,30 +70,9 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UserSolution.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UserSolution.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="UserSolution$Node" memberName="this$0" />
-      </pinned-members>
-    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="root.count" />
-        <watch expression="root.count" />
-        <watch expression="toNode.childList.get(0)" />
+        <watch expression="tree" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

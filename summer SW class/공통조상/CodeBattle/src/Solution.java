@@ -4,21 +4,23 @@ import java.io.*;
 
 class Solution
 {
-    static int N;
     static StringBuilder answer;
+    static int V;
+    static int count;
 
-    static List<Node> tree;
+    static Node[] tree;
+    static int[] visited;
     public static int result;
 
     public static class Node{
-        String data;
+        int data;
+
+        Integer parent;
         Integer left;
         Integer right;
 
-        public Node(String data, Integer left, Integer right) {
+        public Node(int data) {
             this.data = data;
-            this.left = left;
-            this.right = right;
         }
     }
 
@@ -31,36 +33,74 @@ class Solution
         System.out.println("T = " + T);
         for(int test_case = 1; test_case <= T; test_case++)
         {
-            tree = new LinkedList<>();
             answer = new StringBuilder();
             String str;
             str = sc.nextLine();
             StringTokenizer st;
             st = new StringTokenizer(str, " ");
-            int V = Integer.parseInt(st.nextToken());
+            V = Integer.parseInt(st.nextToken());
             int E = Integer.parseInt(st.nextToken());
             int aNode = Integer.parseInt(st.nextToken());
             int bNode = Integer.parseInt(st.nextToken());
-            System.out.println("V + E+ aNode + bNode = " + V + " " + E + " " + aNode + " " + bNode);
-            sc.nextLine();
+            st = new StringTokenizer(sc.nextLine(), " ");
 
+            tree = new Node[V+1];
+            visited = new int[V + 1];
+
+            for (int i = 0; i <= V; i++) {
+                tree[i] = new Node(i);
+                visited[i] = 0;
+            }
+
+            for (int i = 0; i < E; i++) {
+                int root = Integer.parseInt(st.nextToken());
+                int child = Integer.parseInt(st.nextToken());
+
+                if (tree[root].left == null) {
+                    tree[root].left = child;
+                } else {
+                    tree[root].right = child;
+                }
+                tree[child].parent = root;
+                tree[child].data = child;
+                tree[root].data = root;
+            }
+
+
+            Node cur = tree[aNode];
+            int commonParent = 0;
+            for (; ; ) {
+                if(tree[cur.data].parent == null) break;
+                cur = tree[cur.parent];
+                visited[cur.data] = 1;
+            }
+
+            cur = tree[bNode];
+            int bCount = 0;
+            for (; ; ) {
+                if(visited[cur.data] == 1){
+                    commonParent = cur.data;
+                    break;
+                }
+                if(tree[cur.data].parent == null) break;
+                visited[cur.data] = 1;
+                cur = tree[cur.parent];
+                bCount++;
+            }
+
+            count = 0;
+            downNode(commonParent);
+            System.out.println("#" + test_case + " " + commonParent + " " + count);
         }
     }
 
-    public static int calculate(int cur) {
-        Node curNode = tree.get(cur);
-        String data = curNode.data;
-
-        if (data.equals("+"))
-            result = calculate(curNode.left) + calculate(curNode.right);
-        else if (data.equals("-"))
-            result = calculate(curNode.left) - calculate(curNode.right);
-        else if (data.equals("*"))
-            result = calculate(curNode.left) * calculate(curNode.right);
-        else if (data.equals("/"))
-            result = calculate(curNode.left) / calculate(curNode.right);
-        else result = Integer.parseInt(curNode.data);
-
-        return result;
+    static void downNode(int index) {
+        count++;
+        if (tree[index].left != null) {
+            downNode(tree[index].left);
+        }
+        if (tree[index].right != null) {
+            downNode(tree[index].right);
+        }
     }
 }

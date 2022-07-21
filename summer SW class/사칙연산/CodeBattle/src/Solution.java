@@ -53,23 +53,23 @@ class Solution
                     tree.set(key, new Node(data, null, null));
                 }
             }
-            System.out.println("tree = " + calculate(1));
+            System.out.println("#" + test_case + " " + calculate(1));
         }
     }
 
     public static int calculate(int cur) {
-        Node curNode = tree.get(cur);
-        String data = curNode.data;
+        Node node = tree.get(cur);
+        String data = node.data;
 
         if (data.equals("+"))
-            result = calculate(curNode.left) + calculate(curNode.right);
+            result = calculate(node.left) + calculate(node.right);
         else if (data.equals("-"))
-            result = calculate(curNode.left) - calculate(curNode.right);
+            result = calculate(node.left) - calculate(node.right);
         else if (data.equals("*"))
-            result = calculate(curNode.left) * calculate(curNode.right);
+            result = calculate(node.left) * calculate(node.right);
         else if (data.equals("/"))
-            result = calculate(curNode.left) / calculate(curNode.right);
-        else result = Integer.parseInt(curNode.data);
+            result = calculate(node.left) / calculate(node.right);
+        else result = Integer.parseInt(node.data);
 
         return result;
     }
