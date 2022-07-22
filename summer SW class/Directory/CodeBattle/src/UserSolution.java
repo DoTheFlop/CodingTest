@@ -61,20 +61,31 @@ class UserSolution {
             this.dir = dir;
             this.parent = parent;
         }
-    }
 
+    @Override
+    public String toString() {
+        return "Node{" +
+                "count=" + count +
+                ", dir='" + dir + '\'' +
+                ", parent=" + parent +
+                ", childList=" + childList +
+                '}';
+    }
+}
     static List<Node> directory = new LinkedList<>();
     static Node root;
 
     void init(int n) {
         directory.clear();
-        directory.add(new Node(0, "/", null));
+        directory.add(new Node(1, "/", null));
     }
 
     void cmd_mkdir(char[] path, char[] name) {
         root = directory.get(0);
+
         StringBuilder fullPath = new StringBuilder();
         StringBuilder fullName = new StringBuilder();
+
         for (int i = 0; i < path.length-1; i ++) {
             fullPath.append(path[i]);
         }
@@ -83,14 +94,14 @@ class UserSolution {
         }
 
         if(fullPath.toString().equals("/")){
-            Node newNode = new Node(0, fullName.toString(), root);
+            Node newNode = new Node(1, fullName.toString(), root);
             root.childList.add(newNode);
-            directory.add(newNode);
             root.count++;
         }
         else{
             Node node = foundNode(fullPath.toString());
-            node.childList.add(new Node(0, fullName.toString(), node));
+            node.childList.add(new Node(1, fullName.toString(), node));
+            countModify(node, 1);
         }
     }
 
@@ -101,23 +112,18 @@ class UserSolution {
             fullPath.append(path[i]);
         }
 
-        if(fullPath.toString().equals("/")){
-            root.childList.clear();
-            root.count = 0;
-        }
+        Node removeNode = foundNode(fullPath.toString());
+        Node parent = removeNode.parent;
 
-        else{
-            Node removeNode = foundNode(fullPath.toString());
-            Node parent = removeNode.parent;
-            removeNode.parent = null;
-
-            parent.childList.remove(parent.childList.indexOf(removeNode));
-        }
+        removeNode.parent = null;
+        parent.childList.remove(parent.childList.indexOf(removeNode));
+        countModify(parent, -removeNode.count);
     }
 
     void cmd_cp(char[] srcPath, char[] dstPath) {
         StringBuilder fromPath = new StringBuilder();
         StringBuilder toPath = new StringBuilder();
+
         for (int i = 0; i < srcPath.length-1; i ++) {
             fromPath.append(srcPath[i]);
         }
@@ -128,13 +134,20 @@ class UserSolution {
         Node fromNode = foundNode(fromPath.toString());
         Node toNode = foundNode(toPath.toString());
 
-        toNode.childList.add(fromNode);
+        Node copyNode = new Node(fromNode.count, fromNode.dir, fromNode.parent);
+        copyNode.childList = fromNode.childList;
+
+        toNode.childList.add(copyNode);
+        copyNode.parent = toNode;
+
+        countModify(toNode, copyNode.count);
     }
 
     void cmd_mv(char[] srcPath, char[] dstPath) {
         root = directory.get(0);
         StringBuilder fromPath = new StringBuilder();
         StringBuilder toPath = new StringBuilder();
+
         for (int i = 0; i < srcPath.length-1; i ++) {
             fromPath.append(srcPath[i]);
         }
@@ -144,48 +157,51 @@ class UserSolution {
 
         Node fromNode = foundNode(fromPath.toString());
         Node toNode = foundNode(toPath.toString());
+        Node moveNode = new Node(fromNode.count, fromNode.dir, fromNode.parent);
+        moveNode.childList = fromNode.childList;
 
         Node parent = fromNode.parent;
-        fromNode.parent = toNode;
 
         parent.childList.remove(parent.childList.indexOf(fromNode));
+        countModify(parent, -fromNode.count);
 
-        toNode.childList.add(fromNode);
+        moveNode.parent = toNode;
+        toNode.childList.add(moveNode);
+        countModify(toNode, moveNode.count);
     }
 
     int cmd_find(char[] path) {
-
-        return 0;
+        StringBuilder fromPath = new StringBuilder();
+        for (int i = 0; i < path.length-1; i ++) {
+            fromPath.append(path[i]);
+        }
+        Node foundNode = foundNode(fromPath.toString());
+        return foundNode.count-1;
     }
 
     Node foundNode(String path){ //root의 하위 디렉토리 탐색
         root = directory.get(0);
         StringTokenizer st = new StringTokenizer(path, "/");
         int i1 = st.countTokens();
+
         for(int i = 0; i < i1; i++){
             String findDir = st.nextToken();
-            if(root.dir.equals(findDir)) return root;
             for(int j = 0; j < root.childList.size(); j++){
-                String dir = root.childList.get(j).dir;
                 if(root.childList.get(j).dir.equals(findDir)){
                     root = root.childList.get(j);
                     break;
                 }
             }
         }
-        Node node = root;
-        return node;
+        return root;
     }
 
-
-//
-//    static void downNode(int index) {
-//        count++;
-//        if (tree[index].left != null) {
-//            downNode(tree[index].left);
-//        }
-//        if (tree[index].right != null) {
-//            downNode(tree[index].right);
-//        }
-//    }
+    void countModify(Node cur, int size){
+        while(true)
+        {
+            cur.count += size;
+            if(cur.dir.equals("/")) break;
+            cur = cur.parent;
+        }
+    }
 }

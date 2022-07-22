@@ -30,7 +30,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/공통조상"
+    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/Directory/CodeBattle",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,6 +64,8 @@
       <workItem from="1658309840292" duration="1353000" />
       <workItem from="1658311348062" duration="23000" />
       <workItem from="1658375670477" duration="6785000" />
+      <workItem from="1658415460904" duration="337000" />
+      <workItem from="1658452657296" duration="6422000" />
     </task>
     <servers />
   </component>
@@ -73,14 +76,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UserSolution.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UserSolution.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -94,6 +97,11 @@
         <watch expression="root.count" />
         <watch expression="root.count" />
         <watch expression="toNode.childList.get(0)" />
+        <watch expression="cur.count" />
+        <watch expression="parent.childList.get(0)" />
+        <watch expression="toNode.childList.get(0).parent" />
+        <watch expression="parent.childList" />
+        <watch expression="parent.childList" />
       </configuration>
     </watches-manager>
   </component>

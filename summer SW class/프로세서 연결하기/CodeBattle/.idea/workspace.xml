@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c98ac85d-b504-4cd4-9383-aaa264bd8e4f" name="변경" comment="" />
+    <list default="true" id="0e396080-e073-4a22-9910-48f873713653" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CFbU6P0QpeUxQrm07auvN3acPs" />
+  <component name="ProjectId" id="2CHUiU7CLzEiuovw7Y78CA21j0P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -30,20 +30,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 BFS 연습/CodeBattle",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 BFS 연습/CodeBattle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\summer SW class\기초 BFS 연습\CodeBattle\res" />
+      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\summer SW class\프로세서 연결하기\CodeBattle\res" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="CodeBattle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="CodeBattle" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,20 +56,19 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Solution" />
+        <item itemvalue="애플리케이션.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="c98ac85d-b504-4cd4-9383-aaa264bd8e4f" name="변경" comment="" />
-      <created>1658401293384</created>
+      <changelist id="0e396080-e073-4a22-9910-48f873713653" name="변경" comment="" />
+      <created>1658459132098</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1658401293384</updated>
-      <workItem from="1658401294703" duration="3706000" />
-      <workItem from="1658459351507" duration="69000" />
-      <workItem from="1658464536246" duration="636000" />
+      <updated>1658459132098</updated>
+      <workItem from="1658459133317" duration="5319000" />
     </task>
     <servers />
   </component>
