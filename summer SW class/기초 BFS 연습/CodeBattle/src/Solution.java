@@ -7,7 +7,6 @@ public class Solution {
     private final static UserSolution usersolution = new UserSolution();
 
     private static BufferedReader br;
-
     private static int cmd_bfs() throws Exception {
 
         int score = 100;

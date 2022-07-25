@@ -25,14 +25,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/Directory/CodeBattle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 BFS 연습/CodeBattle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\summer SW class\기초 DFS 연습\CodeBattle\res" />
@@ -63,6 +63,9 @@
       <workItem from="1658394448207" duration="7219000" />
       <workItem from="1658405481709" duration="420000" />
       <workItem from="1658414414376" duration="1037000" />
+      <workItem from="1658472426583" duration="582000" />
+      <workItem from="1658488354014" duration="1051000" />
+      <workItem from="1658542007885" duration="1083000" />
     </task>
     <servers />
   </component>

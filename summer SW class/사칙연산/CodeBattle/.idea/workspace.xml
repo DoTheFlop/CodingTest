@@ -25,20 +25,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/공통조상/CodeBattle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/사칙연산/CodeBattle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\summer SW class\사칙연산\CodeBattle\res" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Solution">
+  <component name="RunManager" selected="애플리케이션.test">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="CodeBattle" />
@@ -55,8 +55,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Solution" />
         <item itemvalue="애플리케이션.test" />
+        <item itemvalue="애플리케이션.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -72,6 +72,8 @@
       <workItem from="1658311371842" duration="3203000" />
       <workItem from="1658323933538" duration="1000" />
       <workItem from="1658371640165" duration="72000" />
+      <workItem from="1658474306002" duration="96000" />
+      <workItem from="1658475382905" duration="2894000" />
     </task>
     <servers />
   </component>

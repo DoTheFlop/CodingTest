@@ -25,7 +25,7 @@ class Solution
             for(int i = 1; ; i++) {
                 Ni = N*i;
                 for(int temp = Ni; temp > 0; temp /= 10) {
-                    set.add(temp%10);
+                    set.add(temp % 10);
                 }
                 if(set.size() == 10) break;
             }

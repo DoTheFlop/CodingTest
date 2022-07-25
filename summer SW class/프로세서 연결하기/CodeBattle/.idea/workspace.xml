@@ -30,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 BFS 연습/CodeBattle"
+    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 DFS 연습/CodeBattle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,6 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1658459132098</updated>
       <workItem from="1658459133317" duration="5319000" />
+      <workItem from="1658489958280" duration="192000" />
+      <workItem from="1658541984903" duration="22000" />
     </task>
     <servers />
   </component>
