@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c98ac85d-b504-4cd4-9383-aaa264bd8e4f" name="변경" comment="" />
+    <list default="true" id="c98ac85d-b504-4cd4-9383-aaa264bd8e4f" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../../보급로/CodeBattle/res/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../보급로/CodeBattle/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/새로운 불면증 치료법/CodeBattle",
+    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 BFS 연습/CodeBattle",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -72,6 +76,7 @@
       <workItem from="1658488492838" duration="611000" />
       <workItem from="1658489948543" duration="8000" />
       <workItem from="1658542012859" duration="1011000" />
+      <workItem from="1658911308680" duration="646000" />
     </task>
     <servers />
   </component>
