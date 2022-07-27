@@ -42,12 +42,14 @@ class Solution
                 for (int a = 0; a <= M - W; a++) {
                     for (int i = b; i < H; i++) {
                         for (int j = a; j < a+W; j++) {
-                            temp[i][j] = picB[i][j];
+                            System.out.print(picB[i][j]);
                         }
+                        System.out.println();
                     }
-                    if (Arrays.equals(temp, picA)) {
-                        result++;
-                    }
+                    System.out.println();
+//                    if (Arrays.equals(temp, picA)) {
+//                        result++;
+//                    }
                 }
             }
             System.out.println("#" + test_case + " " + result);

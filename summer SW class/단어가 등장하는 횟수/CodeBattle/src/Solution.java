@@ -26,7 +26,6 @@ class Solution
                 if (Arrays.equals(charB, temp)) {
                     result++;
                 }
-                else
             }
             System.out.println("#" + test_case + " " + result);
         }
