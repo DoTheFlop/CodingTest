@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c98ac85d-b504-4cd4-9383-aaa264bd8e4f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../../보급로/CodeBattle/res/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../보급로/CodeBattle/src/Solution.java" afterDir="false" />
+    <list default="true" id="c98ac85d-b504-4cd4-9383-aaa264bd8e4f" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,17 +27,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 BFS 연습/CodeBattle",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/기초 BFS 연습/CodeBattle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\summer SW class\기초 BFS 연습\CodeBattle\res" />
@@ -53,11 +51,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.Solution" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +69,9 @@
       <workItem from="1658488492838" duration="611000" />
       <workItem from="1658489948543" duration="8000" />
       <workItem from="1658542012859" duration="1011000" />
-      <workItem from="1658911308680" duration="646000" />
+      <workItem from="1658911308680" duration="944000" />
+      <workItem from="1659051089526" duration="20000" />
+      <workItem from="1659051117728" duration="131000" />
     </task>
     <servers />
   </component>
