@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ee5c2f0-5dc2-444b-bd54-533bc6d6472c" name="변경" comment="" />
+    <list default="true" id="5ee5c2f0-5dc2-444b-bd54-533bc6d6472c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Inversion Counting/CodeBattle/res/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Inversion Counting/CodeBattle/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Inversion Counting/CodeBattle/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/사칙연산/CodeBattle"
+    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest/summer SW class/영준이의 진짜 BFS/CodeBattle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658473012546</updated>
       <workItem from="1658473013678" duration="1280000" />
+      <workItem from="1659324491979" duration="148000" />
     </task>
     <servers />
   </component>
