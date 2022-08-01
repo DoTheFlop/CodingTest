@@ -1,73 +1,60 @@
-import java.util.Arrays;
-import java.util.Scanner;
 import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class test
-{
-
+public class test {
     static int[] arr, temp;
+    static long answer = 0;
 
-    public static void main(String args[]) throws Exception
-    {
+    public static void main(String args[]) throws IOException{
         System.setIn(new FileInputStream("res/input.txt"));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = null;
 
-        Scanner sc = new Scanner(System.in);
-        int T;
-        T=sc.nextInt();
+        int T = Integer.parseInt(br.readLine());
+        for (int tc = 1; tc <= T; tc++) {
+            answer = 0;
+            int N = Integer.parseInt(br.readLine());
 
-        for(int test_case = 1; test_case <= T; test_case++)
-        {
-            int N = sc.nextInt();
-            arr = new int[N];
-            temp = new int[N];
-            sc.nextLine();
-            StringTokenizer st = new StringTokenizer(sc.nextLine(), " ");
-            for (int i = 0; i < N; i++) {
+            arr = new int[N+1];
+            temp = new int[N+1];
+            st = new StringTokenizer(br.readLine());
+            for(int i=1; i<=N; i++) {
                 arr[i] = Integer.parseInt(st.nextToken());
             }
-            System.out.println("#" + test_case + " " +  mergeSortAndCount(arr, 0, arr.length - 1));
+
+            mergeSort(1, N);
+            System.out.println("#" + tc + " " + answer);
         }
     }
 
-    private static int mergeAndCount(int[] arr, int l, int m, int r)
-    {
+    public static void mergeSort(int left,int right) {
+        if(left >= right) return;
+        int mid = (left + right) / 2;
+        mergeSort(left, mid);
+        mergeSort(mid + 1, right);
+        merge(left, mid, right);
+    }
 
-        int[] left = Arrays.copyOfRange(arr, l, m + 1);
+    public static void merge(int left, int mid, int right) {
+        int x = left; int y = mid + 1;
+        int k = left;
 
-        int[] right = Arrays.copyOfRange(arr, m + 1, r + 1);
-
-        int i = 0, j = 0, k = l, swaps = 0;
-
-        while (i < left.length && j < right.length) {
-            if (left[i] <= right[j])
-                arr[k++] = left[i++];
-            else {
-                arr[k++] = right[j++];
-                swaps += (m + 1) - (l + i);
+        while(x <= mid || y <= right) {
+            if (y > right || (x <= mid && arr[x] < arr[y])) {
+                temp[k] = arr[x++];
             }
-        }
-        while (i < left.length)
-            arr[k++] = left[i++];
-        while (j < right.length)
-            arr[k++] = right[j++];
-        return swaps;
-    }
-
-    private static int mergeSortAndCount(int[] arr, int l, int r)
-    {
-        int count = 0;
-
-        if (l < r) {
-            int m = (l + r) / 2;
-
-            count += mergeSortAndCount(arr, l, m);
-
-            count += mergeSortAndCount(arr, m + 1, r);
-
-            count += mergeAndCount(arr, l, m, r);
+            else {
+                answer += (mid - x + 1);
+                temp[k] = arr[y++];
+            }
+            k++;
         }
 
-        return count;
+        for(int i = left; i <= right; i++) {
+            arr[i] = temp[i];
+        }
     }
 }
