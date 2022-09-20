@@ -7,7 +7,7 @@ def solution(n):
             if sum == n:
                 answer += 1
                 break
-            elif sum > 15:
+            elif sum > n:
                 break
     return answer
 
