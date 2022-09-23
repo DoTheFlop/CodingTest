@@ -9,7 +9,6 @@ def solution(cacheSize, cities):
             queue.pop( idx )
             queue.insert(0, i)
             cacheHit += 1
-            cacheMiss -= 5
         else:
             queue.insert(0, i)
             cacheMiss += 5
