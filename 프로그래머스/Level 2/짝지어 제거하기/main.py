@@ -12,10 +12,6 @@ def solution(s):
             else:
                 answer.append(i)
 
-    print(answer)
-    if len(answer) == 0:
-        return 1
-    else:
-        return 0
+    return 0 if len(answer) else 1
 
 solution('baabaa')
