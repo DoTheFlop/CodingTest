@@ -1,6 +1,6 @@
 def solution(people, limit):
     people.sort()
-    answer = 0;
+    answer = 0
     i = 0
     j = len(people) - 1
     while i <= j:
