@@ -6,3 +6,5 @@ def solution(nums):
     else :
         answer = len(nums)
     return answer
+
+print(solution([3,1,2,3]))
