@@ -1,7 +1,7 @@
 import heapq
 def solution(phone_book):
     answer = True
-
+    heapq.heapify(phone_book)
     num = heapq.heappop(phone_book)
 
     while phone_book:
