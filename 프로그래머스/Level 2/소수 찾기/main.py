@@ -2,11 +2,15 @@ from itertools import permutations
 
 def solution(numbers):
     answer = 0
+    already_check = []
     numbers = list(numbers)
     for i in range(len(numbers)):
         for j in permutations(numbers, i+1):
-            if prime_check(int("".join(j))):
+            temp = int("".join(j))
+            if prime_check(temp) and temp not in already_check:
+                already_check.append(temp)
                 answer += 1
+                
     return answer
 
 
@@ -19,4 +23,4 @@ def prime_check(n):
             return False
     return True
 
-print(solution("17"))
+print(solution("011"))
