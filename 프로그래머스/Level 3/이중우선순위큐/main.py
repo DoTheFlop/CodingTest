@@ -35,8 +35,9 @@ def solution2(operations):
             q.popleft()
         elif oper[0] == 'D' and oper[1] == '1':
             q.pop()
-    return q
-
-
+    if len(q) < 2:
+        return [0, 0]
+    else:
+        return [q.pop(), q.popleft()]
 
 print(solution2(["I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"]))
