@@ -1,6 +1,3 @@
-from operator import indexOf
-
-
 def solution(skill, skill_trees):
     answer = 0
     skill_list = []
@@ -24,6 +21,21 @@ def solution(skill, skill_trees):
         if check:
             continue
         answer += 1
+    if answer == 0:
+        return -1
     return answer
 
-print(solution("CBD", ["BACDE", "CBADF", "AECB", "BDA"]))
+#좀더 간결하고 직관적인 코드
+def solution2(skill, skill_trees):
+    answer = 0
+    for i in skill_trees:
+        skills = list(skill)
+        for j in i:
+            if j in skills:
+                if skills.pop(0) != j:
+                    break
+        else:
+            answer += 1
+    return answer
+
+print(solution2("CBD", ["BACDE", "CBADF", "AECB", "BDA"]))
