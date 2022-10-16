@@ -1,35 +1,32 @@
+import math
+
 def solution(n, stations, w):
     answer = 0
-    apartment = [0] * n
-    no_signal = []
-    for i in range(n):
-        if i+1 in stations:
-            apartment[i] = 1
-        else:
-            no_signal.append(i)
 
-    pivot = no_signal.pop(0)
-    cnt = 0
-    for i in range(len(apartment)):
-        if apartment[i] == 1:
-            continue
-        if cnt == w:
-            if apartment[i] == 0:
-                if i+w > len(apartment):
-                    answer += 1
-                    break
-                for j in range(i-w, i+1 + w):
-                    apartment[j] = 1
-                    if j in no_signal:
-                        no_signal.remove(j)
-                answer += 1
-                if no_signal:
-                    pivot = no_signal.pop(0)
-                cnt = 0
-                continue
-            else:
-                apartment[pivot] = 1
-        cnt += 1
+    # 전파가 안 통하는 구간의 (시작점, 끝점) 의 모음
+    segments = []
+
+    # 좌표1 ~ 첫번째 안테나 사이의 전파가 안 통하는 구간
+    if stations[0] - w - 1 >= 1:
+        segments.append([1, stations[0]-w-1])
+
+    # 첫번째 안테나 ~ 마지막 안테나 사이의 전파가 안 통하는 구간
+    for i in range(len(stations) - 1):
+        start = stations[i] + w + 1
+        end = stations[i+1] - w - 1
+
+        if start <= end:
+            segments.append([start, end])
+
+    # 마지막 안테나 ~ 좌표n 까지 전파가 안 통하는 구간
+    if stations[-1] + w + 1 <= n:
+        segments.append([stations[-1] + w + 1, n])
+
+    # 전파가 안 통하는 구간 마다
+    for segment in segments:
+        # 구간의 길이
+        length = segment[1] - segment[0] + 1
+        answer += math.ceil(length / (w * 2 + 1))
     return answer
 
 print(solution(11, [4, 11], 1))
