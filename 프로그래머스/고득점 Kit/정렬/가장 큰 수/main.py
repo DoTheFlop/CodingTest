@@ -4,3 +4,4 @@ def solution(numbers):
     return str(int(''.join(numbers)))
 
 print(solution([3, 30, 34, 5, 9]))
+
