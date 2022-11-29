@@ -14,4 +14,4 @@ def solution(routes):
             camera.append(i[1])
     return len(camera)
 
-print(solution([[-20,-15], [-14,-5], [-18,-13], [-5,-3]]	))
+print(solution([[-20,-15], [-14,-5], [-18,-13], [-5,-3]]))
