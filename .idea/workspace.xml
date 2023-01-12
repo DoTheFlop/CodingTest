@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="959c54fe-84b0-4fa7-b4be-9e0ab8bbb304" name="Changes" comment="Changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GZpFHPGJr8D2SQ1T5WHb14lrKo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/CYC/Documents/GitHub/CodingTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\Samsung SW Test\D3\1220. [SW 문제해결 기본] 5일차 - Magnetic" />
+      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\Samsung SW Test\D3\1225. [SW 문제해결 기본] 7일차 - 암호생성기" />
+      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\Samsung SW Test\D3\1213. [SW 문제해결 기본] 3일차 - String" />
+      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\Samsung SW Test\D3\3314. 보충학습과 평균" />
+      <recent name="C:\Users\CYC\Documents\GitHub\CodingTest\Samsung SW Test\D3\12221. 구구단2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="959c54fe-84b0-4fa7-b4be-9e0ab8bbb304" name="Changes" comment="" />
+      <created>1666605854718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666605854718</updated>
+      <workItem from="1666605855881" duration="3125000" />
+      <workItem from="1666614935751" duration="137000" />
+      <workItem from="1666666555095" duration="71000" />
+      <workItem from="1666666634816" duration="1534000" />
+      <workItem from="1667128037287" duration="2001000" />
+      <workItem from="1667130404138" duration="752000" />
+      <workItem from="1667563844106" duration="1864000" />
+      <workItem from="1667608994068" duration="8232000" />
+      <workItem from="1667622443059" duration="69000" />
+      <workItem from="1667622726677" duration="101000" />
+      <workItem from="1667965017255" duration="1253000" />
+      <workItem from="1667969142156" duration="4000" />
+      <workItem from="1668336079063" duration="996000" />
+      <workItem from="1668337994507" duration="2802000" />
+      <workItem from="1668594047972" duration="441000" />
+      <workItem from="1668681678621" duration="2600000" />
+      <workItem from="1668838505402" duration="4447000" />
+      <workItem from="1668875106372" duration="445000" />
+      <workItem from="1669532433094" duration="2359000" />
+      <workItem from="1669547706088" duration="1343000" />
+      <workItem from="1670250949340" duration="14000" />
+      <workItem from="1672586585631" duration="18000" />
+      <workItem from="1672586651083" duration="622000" />
+      <workItem from="1672587372879" duration="595000" />
+      <workItem from="1672647509875" duration="451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/14178. 1차원 정원/main.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/3431. 준환이의 운동관리/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/6730. 장애물 경주 난이도/main.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/10505. 소득 불균형/main.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 3/이중우선순위큐/main.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 2/ 더 맵게/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 3/디스크 컨트롤러/main.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 3/이중우선순위큐/main.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 2/콜라 문제/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/2022 윈터코딩 코딩테스트/no1.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/2022 윈터코딩 코딩테스트/no3.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/2022 윈터코딩 코딩테스트/no2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 1/모의고사/main.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 1/최소직사각형/main.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 2/소수 찾기/main.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/13547. 팔씨름/main.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 3/110 옮기기/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/10570. 제곱 팰린드롬 수/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/3314. 보충학습과 평균/main.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/1213. [SW 문제해결 기본] 3일차 - String/main.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/1225. [SW 문제해결 기본] 7일차 - 암호생성기/main.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Samsung SW Test/D3/1220. [SW 문제해결 기본] 5일차 - Magnetic/main.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 3/여행경로/main.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 3/여행경로/main.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 2/구명보트/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/프로그래머스/Level 3/단속카메라/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CodingTest$no1.coverage" NAME="no1 Coverage Results" MODIFIED="1667610363430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/프로그래머스/2022 윈터코딩 코딩테스트" />
+    <SUITE FILE_PATH="coverage/CodingTest$main.coverage" NAME="main 커버리지 결과" MODIFIED="1669548602698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/프로그래머스/Level 2/큰 수 만들기" />
+    <SUITE FILE_PATH="coverage/CodingTest$no2.coverage" NAME="no2 Coverage Results" MODIFIED="1667616434250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/프로그래머스/2022 윈터코딩 코딩테스트" />
+    <SUITE FILE_PATH="coverage/CodingTest$no3.coverage" NAME="no3 Coverage Results" MODIFIED="1667622758739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/프로그래머스/2022 윈터코딩 코딩테스트" />
+  </component>
+</project>
